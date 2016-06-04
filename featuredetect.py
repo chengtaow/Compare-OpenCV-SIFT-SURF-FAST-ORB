@@ -31,7 +31,7 @@ def fast_thread(picname3, delay):
 def orb_thread(picname4, delay):
 	orb = cv2.ORB_create()
 	kps4 = orb.detect(gray, None)
-	kps4, des4 = orb.compute(gray, kps4)
+	(kps4, des4) = orb.compute(gray, kps4)
 	cv2.drawKeypoints(gray, kps4, img4, flags=cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS)
 	cv2.imshow(picname4, img4)
 
