@@ -9,4 +9,4 @@ It runs under Ubuntu 14.04 and OpenCV 3.1.0.
 To run:
 $ python featuredetect.py
 
-I compare two algorithms at one time. The images show the results.
+The images show the results.
