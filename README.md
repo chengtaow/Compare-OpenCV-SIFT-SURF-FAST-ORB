@@ -10,3 +10,4 @@ To run:
 $ python featuredetect.py
 
 The image shows the result.
+The SIFT provides the most accurate feature detection, while ORB and FAST requires the least computational time. The orientation is not computed in FAST. In real time feature matching problem, I will prefer ORB algorithm. 
